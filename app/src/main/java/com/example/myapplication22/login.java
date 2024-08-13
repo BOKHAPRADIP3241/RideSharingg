@@ -40,7 +40,7 @@ public class login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         code_text =findViewById(R.id.code_text);
         number_text =findViewById(R.id.number_text);

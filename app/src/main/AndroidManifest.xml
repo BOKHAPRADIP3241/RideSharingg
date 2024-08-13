@@ -24,6 +24,7 @@
             android:exported="false"
             android:label="@string/title_activity_image_view"></activity>
         <activity android:name=".individual_chat" />
+        <activity android:name=".chat"/>
         <activity android:name=".help"
             android:exported="false"/>
         <activity

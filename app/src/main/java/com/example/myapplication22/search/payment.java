@@ -94,7 +94,7 @@ public class payment extends AppCompatActivity {
         });
     }
 
-    private void fetchdata(String docId) {
+    private void fetchdata(String docId) {  
         Log.d("fetch","started");
         dbroot.collection("Upload Ride").document(docId).get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override

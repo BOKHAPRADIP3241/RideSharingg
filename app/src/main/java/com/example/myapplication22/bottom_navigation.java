@@ -107,7 +107,10 @@ public class bottom_navigation extends AppCompatActivity {
                     transaction.commit();
 
                 }
-                else {}
+                else {
+                    transaction.replace(R.id.container, new profile_Fragment());
+                    transaction.commit();
+                }
 //                switch (item.getItemId())
 //                {
 //                    case R.id.home :

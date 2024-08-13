@@ -122,12 +122,12 @@ public class ride_details extends AppCompatActivity {
 
 
 
-        btnChat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               // openhome();
-            }
-        });
+//        btnChat.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//               // openhome();
+//            }
+//        });
     }
 
     //fetchdata fun

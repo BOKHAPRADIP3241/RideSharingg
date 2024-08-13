@@ -151,7 +151,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="2/2/2022"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
 
@@ -161,7 +161,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="10:00"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     tools:ignore="MissingConstraints" />
 
@@ -177,7 +177,7 @@
                     android:id="@+id/txt_us_car"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Car Name : Swift"
+                    android:text="Car Name: Swift"
                     android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
@@ -261,7 +261,7 @@
                 android:text="chat"
                 android:textColor="@color/blue"
                 android:backgroundTint="@color/yellow"
-                app:cornerRadius="30sp"
+                app:cornerRadius="10sp"
                 android:padding="10dp"/>
 
             <Button
@@ -272,7 +272,7 @@
                 android:text="Book The Ride"
                 android:textColor="@color/blue"
                 android:backgroundTint="@color/yellow"
-                app:cornerRadius="30sp"
+                app:cornerRadius="10sp"
                 android:padding="10dp"/>
         </LinearLayout>
     </LinearLayout>
